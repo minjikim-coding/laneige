@@ -1,0 +1,228 @@
+.breadcrumb {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  font-size: 14px;
+  margin-right: 50px;
+  z-index: 20;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 20px 0;
+  color: #5f5f5f;
+  font-size: 14px;
+  line-height: 1;
+  list-style: none;
+  .breadcrumb__name {
+    color: #5f5f5f;
+  }
+  .breadcrumb__name-1 {
+    color: #5f5f5f;
+    &::before {
+      content: ">";
+    }
+  }
+  .breadcrumb__name-2 {
+    color: #5f5f5f;
+    &::before {
+      content: ">";
+    }
+  }
+  .breadcrumb__item + .breadcrumb__item {
+    position: relative;
+    margin-left: 0.5em;
+  }
+}
+
+.headerContainer {
+  background-color: white;
+  width: 1180px;
+  height: 700px;
+  min-height: 610px;
+  position: relative;
+  margin: 0 auto;
+
+  text-align: left;
+  .headerInfoContainer {
+    display: flex;
+    margin: 60px;
+
+    align-items: center;
+    justify-content: space-between;
+    .productImgContainer {
+      justify-content: center;
+      .productImg {
+        width: 450px;
+        height: 540px;
+        margin: 80px;
+        margin-left: 100px;
+        background-color: white;
+        border: 1px solid black;
+        &:hover {
+          cursor: url("http://www.laneige.com/kr/ko/assets/image/a/pointer.png"),
+            pointer;
+        }
+      }
+    }
+    .subImgContainer {
+      position: absolute;
+      left: 50px;
+      top: 240px;
+
+      .subImg {
+        display: flex;
+        margin: 0px 0px 10px 0px;
+
+        width: 65px;
+        height: 70px;
+        left: 0px;
+      }
+    }
+  }
+  .hashtag {
+    position: absolute;
+    top: 85px;
+    right: 170px;
+
+    .hashtag-1 {
+      background: #c9daf3;
+    }
+    .hashtag1::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      bottom: -2px;
+      z-index: -1;
+      background-color: #c9daf3;
+    }
+  }
+  .name {
+    position: absolute;
+    top: 113px;
+    right: 66px;
+    width: 380px;
+    height: 80px;
+    font-size: 29px;
+    margin: 10px 0;
+
+    font-weight: bold;
+  }
+  .sking {
+    margin: 0 0 0 20px;
+    background: #c9daf3;
+    line-height: 1;
+  }
+  .productInfoSubname {
+    position: absolute;
+    top: 200px;
+    right: 65px;
+    width: 380px;
+    height: 18px;
+    font-size: 15px;
+  }
+  .productInfoName {
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+  }
+  .discription {
+    position: absolute;
+    top: 230px;
+    right: 67px;
+    height: 80px;
+    width: 380px;
+    color: #000;
+    line-height: 1.2;
+    border-bottom: 1px solid black;
+    margin: 16px, 50px, 24px;
+    padding: 0px 0 0;
+  }
+  .totalPrice {
+    display: flex;
+    width: 450px;
+    margin-left: 70px;
+
+    .volume {
+      position: relative;
+      right: 20px;
+    }
+    .price {
+      position: absolute;
+      right: 68px;
+    }
+  }
+  .btnContainer {
+    position: absolute;
+
+    width: 380px;
+    height: 49px;
+    .buyBtn {
+      position: relative;
+      left: 46px;
+      top: 25px;
+      margin: 16px 0 0 0;
+      padding: 15px 25px;
+      color: white;
+      border: 1px solid #2b2b2b;
+      background-color: #2b2b2b;
+      text-align: center;
+      text-decoration: none;
+      letter-spacing: 0;
+      line-height: 1;
+
+      transition: all 0.2s ease-out;
+      cursor: pointer;
+    }
+  }
+}
+.tab-link-1 {
+  margin: 20px 40px 20px;
+}
+.tab-link-2 {
+  margin: 20px 20px 20px 20px;
+}
+.tabs {
+  position: relative;
+  display: flex;
+  height: 54px;
+  font-size: 1.0625rem;
+  justify-content: center;
+  color: #ddd;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.pdp__tabs {
+  .pdp__tabs .tab-link {
+    height: 100%;
+    padding: 0 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    white-space: nowrap;
+  }
+  .pdp__tabs .tab-link + .tab-link {
+    margin-left: 0;
+  }
+  .pdp__tabs.is-sticky {
+    position: fixed;
+    top: -1px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  }
+}
