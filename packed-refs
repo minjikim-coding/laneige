@@ -1,0 +1,13 @@
+# pack-refs with: peeled fully-peeled sorted 
+1b71e4875ae2f6999e630368ef5033505bd7e186 refs/remotes/origin/feature/Main
+ec386f1249b0310d3f4cfb00937af4c8afd902a0 refs/remotes/origin/feature/brand
+7399a36605a3e0a461688ae849c523fab9b3c74d refs/remotes/origin/feature/brand_refillme
+6f7131356f53a856e8e0888308644324c4ed2493 refs/remotes/origin/feature/bug_fix
+91ba414e61d9b2096826bd1b59e33f5505e026ed refs/remotes/origin/feature/cart
+6f7131356f53a856e8e0888308644324c4ed2493 refs/remotes/origin/feature/hello
+3a5e82b7aa8caba8b67411a694a2eb83eeebdbbf refs/remotes/origin/feature/login_signup
+d9ce5fa3706aa24769a2d03b18c3e39621741432 refs/remotes/origin/feature/nav_footer
+918dc0948e3553267c9f1f35c575bfea5d2fb5f0 refs/remotes/origin/feature/product_list
+b7fea041c08aded2eea3763d5ff3f4dc56d16413 refs/remotes/origin/feature/review_and_reservation
+5ca2f385453e055b8032081382ac8d4929d2e9b8 refs/remotes/origin/master
+e197fa51bc1290383ee5827106b8692d72b10ee9 refs/remotes/origin/revert-9-feature/nav_footer
